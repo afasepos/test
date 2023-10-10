@@ -3,33 +3,33 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
 const testimonialData: Testimonial[] = [
-  {
-    id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
-  },
-  {
-    id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
-  },
+  // {
+  //   id: 1,
+  //   name: "Musharof Chy",
+  //   designation: "Founder @TailGrids",
+  //   content:
+  //     "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+  //   image: "/images/testimonials/auth-01.png",
+  //   star: 5,
+  // },
+  // {
+  //   id: 2,
+  //   name: "Devid Weilium",
+  //   designation: "Founder @UIdeck",
+  //   content:
+  //     "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+  //   image: "/images/testimonials/auth-02.png",
+  //   star: 5,
+  // },
+  // {
+  //   id: 3,
+  //   name: "Lethium Frenci",
+  //   designation: "Founder @Lineicons",
+  //   content:
+  //     "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+  //   image: "/images/testimonials/auth-03.png",
+  //   star: 5,
+  // },
 ];
 
 const Testimonials = () => {
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our AI Says"
+          paragraph="Our AI, MontyGPT, provides a wealth of insights and information. While it doesn't generate Lorem Ipsum text, it offers a wide range of responses and answers to your queries, tailored to your specific needs. MontyGPT is here to assist you with accurate and relevant information, ensuring you get the answers you seek."
           center
         />
 

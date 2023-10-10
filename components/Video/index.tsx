@@ -4,8 +4,6 @@ import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
-import ModalVideo from "react-modal-video";
-
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
@@ -13,13 +11,13 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Fueled by GPT-4 Technology."
+          paragraph="Fueled by the cutting-edge GPT-4 technology, MontyGPT delivers advanced AI capabilities. With its enhanced cognitive abilities and natural language understanding, it can provide insightful and contextually relevant responses to a wide range of queries."
           center
           mb="80px"
         />
 
-        <div className="-mx-4 flex flex-wrap">
+        {/* <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
               className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
@@ -45,17 +43,17 @@ const Video = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="--khbXchTeE"
         onClose={() => setOpen(false)}
-      />
+      /> */}
 
       <div className="absolute bottom-0 left-0 right-0 z-[-1]">
         <img src="/images/video/shape.svg" alt="shape" className="w-full" />

@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Crafted for MontyGPT - The Ultimate AI Companion."
+                paragraph="MontyGPT is your premium AI companion, powered by GPT-4 technology. It offers developer-friendly features and represents the pinnacle of AI sophistication."
                 mb="44px"
               />
 
@@ -35,15 +35,14 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Premium quality AI responses" />
+                    <List text="Enhanced cognitive abilities" />
+                    <List text="Insightful and context-aware interactions" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Advanced natural language understanding" />
+                    <List text="Cutting-edge GPT-4 technology" />
                   </div>
                 </div>
               </div>
